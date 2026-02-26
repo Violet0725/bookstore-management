@@ -1,0 +1,46 @@
+# ===========================
+# Personal Files (exclude)
+# ===========================
+resume.tex
+DEVLOG.md
+
+# ===========================
+# Java / Spring Boot - Keep src/, but exclude build output
+# ===========================
+backend/target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# Maven Wrapper - Keep these
+# !backend/mvnw
+# !backend/mvnw.cmd
+
+# ===========================
+# IDE - exclude local settings
+# ===========================
+.idea/
+*.iml
+.vscode/
+
+# ===========================
+# Angular / Node - Keep src/, but exclude node_modules and build
+# ===========================
+bookstore-frontend/node_modules/
+bookstore-frontend/dist/
+bookstore-frontend/.angular/
+bookstore-frontend/.angular/cache/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Keep these file types
+# ===========================
+!.gitignore
+!.gitattributes
